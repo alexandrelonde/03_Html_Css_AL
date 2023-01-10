@@ -1,3 +1,4 @@
+/* Comentário em CSS */
 body {
     background: #CCCCCC;
 }
@@ -7,5 +8,7 @@ p {
 }
 
 em strong{
-    color: red;
+    /* color: red; */
+    /* color: rgb(255, 0, 0); */
+    color: #FF0000;
 }
