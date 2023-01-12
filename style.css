@@ -5,6 +5,7 @@ body {
     background: #CCCCCC;
 }
 
+/* Para mencionar um identificador */
 #banner {
     width: 100%;
 }
@@ -17,6 +18,7 @@ p {
     text-align: center;
 }
 
+/* Para mencionar um identificador */
 #missao {
     font-size: 20px
 }
@@ -25,4 +27,10 @@ em strong{
     /* color: red; */
     /* color: rgb(255, 0, 0); */
     color: #FF0000;
+}
+
+/* Para mencionar uma classe */
+.itens {
+    font-style: italic
+
 }
