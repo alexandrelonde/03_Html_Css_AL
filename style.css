@@ -16,9 +16,14 @@ body {
 
 .principal {
     background: #CCCCCC;
+    padding: 30px;
 }
 
-h1 {
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titulo-centralizado {
     text-align: center
 }
 
@@ -45,10 +50,7 @@ em strong{
 
 .beneficios {
     background: #FFFFFF;
-}
-
-h2 {
-    text-align: center;
+    padding: 20px; /* Espaçamento interno */
 }
 
 ul {
@@ -58,7 +60,13 @@ ul {
         display: inline; -------> não bloqueia a largura da página e outro conteúdo é adicionado ao seu lado
         display: inline-block; -> bloqueia apenas uma largura fixa que determinarmos, com isso podemos adicionar conteúdo ao lado
     */
+
     vertical-align: top; /* Alinha os elementos verticalmente pela linha de cima */
+
+    width: 20%;
+    margin-right: 15%;
+
+
 }
 
 .imagembeneficios {
