@@ -2,12 +2,17 @@
 /* Usar ferramentas do desenvolvedor no navegador -> F12 */
 
 body {
-    background: #CCCCCC;
+    
 }
 
 /* Para mencionar um identificador */
+/* Identificador serve para itens únicos */
 #banner {
     width: 100%;
+}
+
+.principal {
+    background: #CCCCCC;
 }
 
 h1 {
@@ -20,7 +25,7 @@ p {
 
 /* Para mencionar um identificador */
 #missao {
-    font-size: 20px
+    font-size: 20px;
 }
 
 em strong{
@@ -30,7 +35,16 @@ em strong{
 }
 
 /* Para mencionar uma classe */
+/* Classe serve para um conjunto de itens */
 .itens {
-    font-style: italic
+    font-style: italic;
 
+}
+
+.beneficios {
+    background: #FFFFFF;
+}
+
+h2 {
+    text-align: center;
 }
