@@ -1,6 +1,12 @@
 /* Comentário em CSS */
+/* Usar ferramentas do desenvolvedor no navegador -> F12 */
+
 body {
     background: #CCCCCC;
+}
+
+#banner {
+    width: 100%;
 }
 
 h1 {
