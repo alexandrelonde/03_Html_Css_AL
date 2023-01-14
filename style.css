@@ -1,74 +1,100 @@
-/* Comentário em CSS */
-/* Usar ferramentas do desenvolvedor no navegador -> F12 */
-
-/*
-body {
-    //////////////////////////////////////////////////////
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
 }
 
-*/
-
-/* Para mencionar um identificador */
-/* Identificador serve para itens únicos */
-#banner {
-    width: 100%;
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
-.principal {
-    background: #CCCCCC;
-    padding: 30px;
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
-.titulo-principal {
-    padding-left: 20px;
+nav li {
+    display: inline;
+    margin: 0 0 0 15px; /* Usado para colocar espaçamento -> topo  direita  baixo  esquerda */
 }
 
-.titulo-centralizado {
-    text-align: center
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
 
-p {
-    text-align: center;
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
 }
 
-/* Para mencionar um identificador */
-#missao {
-    font-size: 20px;
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
 }
 
-em strong{
-    /* color: red; */
-    /* color: rgb(255, 0, 0); */
-    color: #FF0000;
-}
-
-/* Para mencionar uma classe */
-/* Classe serve para um conjunto de itens */
-.itens {
-    font-style: italic;
-}
-
-.beneficios {
-    background: #FFFFFF;
-    padding: 20px; /* Espaçamento interno */
-}
-
-ul {
+.produtos li {
     display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+
+    /* Propriedades da borda*/
     /*
-        display: block; --------> uma tag bloqueia a largura inteira da página
-        display: inline; -------> não bloqueia a largura da página e outro conteúdo é adicionado ao seu lado
-        display: inline-block; -> bloqueia apenas uma largura fixa que determinarmos, com isso podemos adicionar conteúdo ao lado
+        border-color: #000000;
+        border-width: 2px;
+        border-style: solid;
     */
+    /* Podemos fazer a declaração das propriedades da borda em uma única linha*/
+    border: 2px solid #000000;
 
-    vertical-align: top; /* Alinha os elementos verticalmente pela linha de cima */
-
-    width: 20%;
-    margin-right: 15%;
-
-
+    border-radius: 10px;
 }
 
-.imagembeneficios {
-    width: 50%;
+.produtos li:hover {
+    border-color: #C78C19;   
+}
+
+.produtos li:active {
+    border-color: #088C19;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;  
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url("images/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
 }

@@ -1,0 +1,74 @@
+/* Comentário em CSS */
+/* Usar ferramentas do desenvolvedor no navegador -> F12 */
+
+/*
+body {
+    //////////////////////////////////////////////////////
+}
+
+*/
+
+/* Para mencionar um identificador */
+/* Identificador serve para itens únicos */
+#banner {
+    width: 100%;
+}
+
+.principal {
+    background: #CCCCCC;
+    padding: 30px;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center
+}
+
+p {
+    text-align: center;
+}
+
+/* Para mencionar um identificador */
+#missao {
+    font-size: 20px;
+}
+
+em strong{
+    /* color: red; */
+    /* color: rgb(255, 0, 0); */
+    color: #FF0000;
+}
+
+/* Para mencionar uma classe */
+/* Classe serve para um conjunto de itens */
+.itens {
+    font-style: italic;
+}
+
+.beneficios {
+    background: #FFFFFF;
+    padding: 20px; /* Espaçamento interno */
+}
+
+ul {
+    display: inline-block;
+    /*
+        display: block; --------> uma tag bloqueia a largura inteira da página
+        display: inline; -------> não bloqueia a largura da página e outro conteúdo é adicionado ao seu lado
+        display: inline-block; -> bloqueia apenas uma largura fixa que determinarmos, com isso podemos adicionar conteúdo ao lado
+    */
+
+    vertical-align: top; /* Alinha os elementos verticalmente pela linha de cima */
+
+    width: 20%;
+    margin-right: 15%;
+
+
+}
+
+.imagembeneficios {
+    width: 50%;
+}
