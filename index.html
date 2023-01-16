@@ -12,10 +12,19 @@
         <link rel="stylesheet" href="style.css"> <!-- Depois coloca a folha de estilos desejada  -->
     </head>
     <body>
-        <header> <!-- Usamos para o cabeçalho uma div específica chamada header (IMPORTANTE!!! head <> header) -->
-            <h1 class="titulo-principal">Barbearia Alura</h1>
+        <header> <!-- Tag especial para o cabeçalho -->
+            <div class="caixa">
+                <h1><img src="images/logo.png" alt="Logo da Barbearia Alura"></h1>
+                <nav> <!-- Tag especial para determinar que é um menu de navegação -->
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
-        
+
         <img id="banner" src="images/banner.jpg">
 
         <div class="principal">
