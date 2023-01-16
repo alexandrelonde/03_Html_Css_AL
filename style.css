@@ -262,3 +262,24 @@ td, th {
 
 /* Pseudo-elementos: elementos que exitem no css e não existem no html */
 
+
+/* media query -> pesquisa no navegador qual o tamanho da tela */
+
+@media screen and (max-width: 480px) {
+    /* Para telas com até 480px vamos entregar o estilo que estiver nessa media query */
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
+}
