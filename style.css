@@ -242,6 +242,10 @@ td, th {
     font-weight: bold;
 }
 
+.itens:before {
+    content: "★";
+}
+
 .imagem-beneficios {
     width: 60%;
 }
@@ -253,4 +257,6 @@ td, th {
 
 /* Alguns peseudo elementos */
 /* :hover :active :visited :required */
+
+/* Pseudo-elementos: elementos que exitem no css e não existem no html */
 
