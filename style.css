@@ -103,8 +103,10 @@ footer {
     margin: 20px 0 0;
 }
 
-main {
-    
+/* ////////// VERIFICAR ESSA PARTE DA LÓGICA ////////// */
+.menu-formulario { 
+    width: 940px;
+    margin: 0 auto;
 }
 
 form {
